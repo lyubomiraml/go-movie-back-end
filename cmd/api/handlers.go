@@ -55,8 +55,7 @@ func (app *application) AllMovies(w http.ResponseWriter, r *http.Request)  {
 	rd, _ = time.Parse("2006-01-02", "1981-06-12")
 
 	rotla := models.Movie {
-
-		ID: 1,
+		ID: 2,
 		Title: "Raiders of the Lost Ark",
 		ReleaseDate: rd,
 		MPAARating: "PG-13",
